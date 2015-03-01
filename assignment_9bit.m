@@ -64,8 +64,9 @@ for i = 1:512
             else
                 count3 += 1;
             end
-end
+        end
 
+% Hello%
 % %Quantise the coefficients:
 bqI = round(bs);  %Rounded scaled coefficients  (all are now integers)
 
